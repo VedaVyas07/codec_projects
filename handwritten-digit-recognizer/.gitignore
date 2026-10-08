@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Trained model artifacts (regenerate with train_model.py)
+model/*.keras
+model/*.h5
+model/*.png
+model/metrics.txt
+
+# Streamlit
+.streamlit/
+
+# Cached raw MNIST download (fallback path)
+data_cache/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Jupyter (not used, but ignored if created ad hoc)
+.ipynb_checkpoints/
